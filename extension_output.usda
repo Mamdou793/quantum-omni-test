@@ -15,7 +15,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (0, 0, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -33,7 +33,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (0, 300, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -42,7 +42,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (0, 450, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -60,7 +60,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (0, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -78,7 +78,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (0, 1050, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -87,7 +87,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (0, 1200, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -123,7 +123,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (150, 300, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -159,7 +159,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (150, 900, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -168,7 +168,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (150, 1050, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -177,7 +177,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (150, 1200, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -240,7 +240,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (300, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -249,7 +249,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (300, 900, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -267,7 +267,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (300, 1200, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -330,7 +330,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (450, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -339,7 +339,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (450, 900, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -348,7 +348,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (450, 1050, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -357,7 +357,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (450, 1200, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -393,7 +393,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (600, 300, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -402,7 +402,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (600, 450, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -420,7 +420,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (600, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -429,7 +429,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (600, 900, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -456,7 +456,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (600, 1350, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -474,7 +474,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (750, 150, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -501,7 +501,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (750, 600, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -510,7 +510,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (750, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -519,7 +519,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (750, 900, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -537,7 +537,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (750, 1200, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -546,7 +546,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (750, 1350, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -555,7 +555,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (900, 0, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -573,7 +573,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (900, 300, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -636,7 +636,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (900, 1350, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -690,7 +690,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (1050, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -699,7 +699,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (1050, 900, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -744,7 +744,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (1200, 150, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -780,7 +780,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (1200, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -843,7 +843,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (1350, 300, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -861,7 +861,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (1350, 600, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -870,7 +870,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (1350, 750, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -879,7 +879,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(0, 1, 0)]
+        color3f[] primvars:displayColor = [(1, 0, 0)]
         double3 xformOp:translate = (1350, 900, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -888,7 +888,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (1350, 1050, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -906,7 +906,7 @@ def "World"
         prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsCollisionAPI"]
     )
     {
-        color3f[] primvars:displayColor = [(1, 0, 0)]
+        color3f[] primvars:displayColor = [(0, 1, 0)]
         double3 xformOp:translate = (1350, 1350, 500)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }

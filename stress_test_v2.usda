@@ -1,0 +1,608 @@
+#usda 1.0
+(
+    upAxis = "Y"
+)
+
+def "World"
+{
+    def Cube "Qubit_0_0"
+    {
+        double3 xformOp:translate = (0, 5, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_1"
+    {
+        double3 xformOp:translate = (0, 5, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_2"
+    {
+        double3 xformOp:translate = (0, 5, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_3"
+    {
+        double3 xformOp:translate = (0, 5, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_4"
+    {
+        double3 xformOp:translate = (0, 5, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_5"
+    {
+        double3 xformOp:translate = (0, 5, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_6"
+    {
+        double3 xformOp:translate = (0, 5, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_7"
+    {
+        double3 xformOp:translate = (0, 5, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_8"
+    {
+        double3 xformOp:translate = (0, 5, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_0_9"
+    {
+        double3 xformOp:translate = (0, 5, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_0"
+    {
+        double3 xformOp:translate = (2, 7, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_1"
+    {
+        double3 xformOp:translate = (2, 7, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_2"
+    {
+        double3 xformOp:translate = (2, 7, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_3"
+    {
+        double3 xformOp:translate = (2, 7, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_4"
+    {
+        double3 xformOp:translate = (2, 7, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_5"
+    {
+        double3 xformOp:translate = (2, 7, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_6"
+    {
+        double3 xformOp:translate = (2, 7, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_7"
+    {
+        double3 xformOp:translate = (2, 7, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_8"
+    {
+        double3 xformOp:translate = (2, 7, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_1_9"
+    {
+        double3 xformOp:translate = (2, 7, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_0"
+    {
+        double3 xformOp:translate = (4, 9, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_1"
+    {
+        double3 xformOp:translate = (4, 9, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_2"
+    {
+        double3 xformOp:translate = (4, 9, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_3"
+    {
+        double3 xformOp:translate = (4, 9, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_4"
+    {
+        double3 xformOp:translate = (4, 9, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_5"
+    {
+        double3 xformOp:translate = (4, 9, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_6"
+    {
+        double3 xformOp:translate = (4, 9, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_7"
+    {
+        double3 xformOp:translate = (4, 9, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_8"
+    {
+        double3 xformOp:translate = (4, 9, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_2_9"
+    {
+        double3 xformOp:translate = (4, 9, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_0"
+    {
+        double3 xformOp:translate = (6, 11, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_1"
+    {
+        double3 xformOp:translate = (6, 11, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_2"
+    {
+        double3 xformOp:translate = (6, 11, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_3"
+    {
+        double3 xformOp:translate = (6, 11, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_4"
+    {
+        double3 xformOp:translate = (6, 11, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_5"
+    {
+        double3 xformOp:translate = (6, 11, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_6"
+    {
+        double3 xformOp:translate = (6, 11, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_7"
+    {
+        double3 xformOp:translate = (6, 11, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_8"
+    {
+        double3 xformOp:translate = (6, 11, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_3_9"
+    {
+        double3 xformOp:translate = (6, 11, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_0"
+    {
+        double3 xformOp:translate = (8, 13, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_1"
+    {
+        double3 xformOp:translate = (8, 13, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_2"
+    {
+        double3 xformOp:translate = (8, 13, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_3"
+    {
+        double3 xformOp:translate = (8, 13, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_4"
+    {
+        double3 xformOp:translate = (8, 13, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_5"
+    {
+        double3 xformOp:translate = (8, 13, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_6"
+    {
+        double3 xformOp:translate = (8, 13, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_7"
+    {
+        double3 xformOp:translate = (8, 13, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_8"
+    {
+        double3 xformOp:translate = (8, 13, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_4_9"
+    {
+        double3 xformOp:translate = (8, 13, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_0"
+    {
+        double3 xformOp:translate = (10, 15, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_1"
+    {
+        double3 xformOp:translate = (10, 15, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_2"
+    {
+        double3 xformOp:translate = (10, 15, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_3"
+    {
+        double3 xformOp:translate = (10, 15, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_4"
+    {
+        double3 xformOp:translate = (10, 15, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_5"
+    {
+        double3 xformOp:translate = (10, 15, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_6"
+    {
+        double3 xformOp:translate = (10, 15, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_7"
+    {
+        double3 xformOp:translate = (10, 15, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_8"
+    {
+        double3 xformOp:translate = (10, 15, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_5_9"
+    {
+        double3 xformOp:translate = (10, 15, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_0"
+    {
+        double3 xformOp:translate = (12, 17, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_1"
+    {
+        double3 xformOp:translate = (12, 17, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_2"
+    {
+        double3 xformOp:translate = (12, 17, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_3"
+    {
+        double3 xformOp:translate = (12, 17, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_4"
+    {
+        double3 xformOp:translate = (12, 17, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_5"
+    {
+        double3 xformOp:translate = (12, 17, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_6"
+    {
+        double3 xformOp:translate = (12, 17, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_7"
+    {
+        double3 xformOp:translate = (12, 17, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_8"
+    {
+        double3 xformOp:translate = (12, 17, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_6_9"
+    {
+        double3 xformOp:translate = (12, 17, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_0"
+    {
+        double3 xformOp:translate = (14, 19, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_1"
+    {
+        double3 xformOp:translate = (14, 19, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_2"
+    {
+        double3 xformOp:translate = (14, 19, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_3"
+    {
+        double3 xformOp:translate = (14, 19, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_4"
+    {
+        double3 xformOp:translate = (14, 19, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_5"
+    {
+        double3 xformOp:translate = (14, 19, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_6"
+    {
+        double3 xformOp:translate = (14, 19, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_7"
+    {
+        double3 xformOp:translate = (14, 19, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_8"
+    {
+        double3 xformOp:translate = (14, 19, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_7_9"
+    {
+        double3 xformOp:translate = (14, 19, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_0"
+    {
+        double3 xformOp:translate = (16, 21, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_1"
+    {
+        double3 xformOp:translate = (16, 21, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_2"
+    {
+        double3 xformOp:translate = (16, 21, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_3"
+    {
+        double3 xformOp:translate = (16, 21, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_4"
+    {
+        double3 xformOp:translate = (16, 21, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_5"
+    {
+        double3 xformOp:translate = (16, 21, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_6"
+    {
+        double3 xformOp:translate = (16, 21, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_7"
+    {
+        double3 xformOp:translate = (16, 21, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_8"
+    {
+        double3 xformOp:translate = (16, 21, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_8_9"
+    {
+        double3 xformOp:translate = (16, 21, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_0"
+    {
+        double3 xformOp:translate = (18, 23, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_1"
+    {
+        double3 xformOp:translate = (18, 23, 2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_2"
+    {
+        double3 xformOp:translate = (18, 23, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_3"
+    {
+        double3 xformOp:translate = (18, 23, 6)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_4"
+    {
+        double3 xformOp:translate = (18, 23, 8)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_5"
+    {
+        double3 xformOp:translate = (18, 23, 10)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_6"
+    {
+        double3 xformOp:translate = (18, 23, 12)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_7"
+    {
+        double3 xformOp:translate = (18, 23, 14)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_8"
+    {
+        double3 xformOp:translate = (18, 23, 16)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Cube "Qubit_9_9"
+    {
+        double3 xformOp:translate = (18, 23, 18)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+}
+

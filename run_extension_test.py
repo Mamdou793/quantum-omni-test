@@ -1,22 +1,19 @@
 import sys
 import os
-
-# Adds the current directory to the path so it can see the 'ext' folder
 sys.path.append(os.getcwd())
 
-# Import using underscores to match the renamed folder
 from ext.quantum_omni_tool.quantum.omni.tool.logic import QuantumTool
 
 # 1. Initialize
-my_tool = QuantumTool(stage_path="extension_output.usda")
+log_name = "quantum_stress_results.csv"
+my_tool = QuantumTool(stage_path="stress_test_v2.usda")
 
 # 2. Run
-print("✅ Extension logic loaded successfully!")
-print("Step 1: " + my_tool.generate_grid(count=10))
+print("📊 Running Quantum Data Acquisition...")
+my_tool.generate_grid(count=10)
+stats = my_tool.run_measurement(log_file=log_name)
 
-# 3. Measurement
-stats = my_tool.run_measurement()
-
-print("\n--- EXTENSION TEST REPORT ---")
-print(f"Alpha (Green): {stats['Alpha']}")
-print(f"Beta (Red):    {stats['Beta']}")
+# 3. Output
+print(f"\n--- DATA COLLECTION COMPLETE ---")
+print(f"Results saved to: {os.path.abspath(log_name)}")
+print(f"Stable (Alpha): {stats['Alpha']} | Decohered (Beta): {stats['Beta']}")

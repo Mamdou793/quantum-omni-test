@@ -1,46 +1,50 @@
-from pxr import Usd, UsdGeom, Gf, UsdPhysics
 import random
+import math
+import csv # New import for data logging
+from pxr import Usd, UsdGeom, Gf
 
 class QuantumTool:
-    def __init__(self, stage_path="quantum_array_sim.usda"):
-        self.stage_path = stage_path
+    def __init__(self, stage_path="extension_output.usda"):
+        # We use 'try' to avoid errors if the file exists from a previous run
+        try:
+            self.stage = Usd.Stage.CreateNew(stage_path)
+        except:
+            self.stage = Usd.Stage.Open(stage_path)
+            
+        UsdGeom.SetStageUpAxis(self.stage, UsdGeom.Tokens.y)
+        self.qubit_data = []
 
-    def generate_grid(self, count=10, spacing=150):
-        stage = Usd.Stage.CreateNew(self.stage_path)
-        UsdGeom.SetStageUpAxis(stage, UsdGeom.Tokens.z)
-        
-        # Ground
-        floor = UsdGeom.Plane.Define(stage, "/World/Ground")
-        UsdPhysics.CollisionAPI.Apply(stage.GetPrimAtPath("/World/Ground"))
-
-        # Array Logic
+    def generate_grid(self, count=10, spacing=2.0):
+        self.qubit_data = [] # Reset data for new run
         for i in range(count):
             for j in range(count):
                 path = f"/World/Qubit_{i}_{j}"
-                cube = UsdGeom.Cube.Define(stage, path)
-                cube.AddTranslateOp().Set(Gf.Vec3d(i * spacing, j * spacing, 500))
+                cube = UsdGeom.Cube.Define(self.stage, path)
+                height = 5.0 + (i * 2.0) 
+                pos = Gf.Vec3f(i * spacing, height, j * spacing)
+                cube.AddTranslateOp().Set(pos)
+                self.qubit_data.append({"id": f"{i}_{j}", "height": height})
+        
+        self.stage.Save()
+        return f"Generated {count*count} Qubits for data collection."
+
+    def run_measurement(self, log_file="quantum_data_log.csv"):
+        results = {"Alpha": 0, "Beta": 0}
+        max_height = max(d["height"] for d in self.qubit_data)
+        
+        # Prepare the CSV file
+        with open(log_file, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(["Qubit_ID", "Fall_Height", "Resulting_State"])
+            
+            for data in self.qubit_data:
+                stress_factor = data["height"] / max_height
                 
-                prim = stage.GetPrimAtPath(path)
-                UsdPhysics.RigidBodyAPI.Apply(prim)
-                UsdPhysics.CollisionAPI.Apply(prim)
-
-        stage.GetRootLayer().Save()
-        return f"Generated {count*count} Qubits."
-
-    def run_measurement(self):
-        stage = Usd.Stage.Open(self.stage_path)
-        stats = {"Alpha": 0, "Beta": 0}
-
-        for prim in stage.Traverse():
-            if "Qubit" in prim.GetName():
-                is_alpha = random.choice([True, False])
-                color = Gf.Vec3f(0, 1, 0) if is_alpha else Gf.Vec3f(1, 0, 0)
+                # Logic: Probability of Beta increases with height
+                state = "Alpha" if random.random() > (stress_factor * 0.8) else "Beta"
                 
-                cube_geom = UsdGeom.Cube(prim)
-                cube_geom.CreateDisplayColorAttr().Set([color])
+                results[state] += 1
+                # Log the specific data point
+                writer.writerow([data["id"], round(data["height"], 2), state])
                 
-                if is_alpha: stats["Alpha"] += 1
-                else: stats["Beta"] += 1
-
-        stage.GetRootLayer().Save()
-        return stats
+        return results

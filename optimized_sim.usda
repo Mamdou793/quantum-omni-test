@@ -21,7 +21,7 @@ def "World"
 
     def Cube "Qubit_0_2"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (0, 5, 4)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -35,14 +35,14 @@ def "World"
 
     def Cube "Qubit_0_4"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (0, 5, 8)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_0_5"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (0, 5, 10)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -63,7 +63,7 @@ def "World"
 
     def Cube "Qubit_0_8"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (0, 5, 16)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -77,14 +77,14 @@ def "World"
 
     def Cube "Qubit_1_0"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (2, 7, 0)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_1_1"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (2, 7, 2)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -105,7 +105,7 @@ def "World"
 
     def Cube "Qubit_1_4"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (2, 7, 8)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -119,7 +119,7 @@ def "World"
 
     def Cube "Qubit_1_6"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (2, 7, 12)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -133,14 +133,14 @@ def "World"
 
     def Cube "Qubit_1_8"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (2, 7, 16)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_1_9"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (2, 7, 18)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -161,7 +161,7 @@ def "World"
 
     def Cube "Qubit_2_2"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (4, 9, 4)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -175,14 +175,14 @@ def "World"
 
     def Cube "Qubit_2_4"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (4, 9, 8)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_2_5"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (4, 9, 10)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -203,7 +203,7 @@ def "World"
 
     def Cube "Qubit_2_8"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (4, 9, 16)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -217,14 +217,14 @@ def "World"
 
     def Cube "Qubit_3_0"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (6, 11, 0)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_3_1"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (6, 11, 2)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -252,7 +252,7 @@ def "World"
 
     def Cube "Qubit_3_5"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (6, 11, 10)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -280,7 +280,7 @@ def "World"
 
     def Cube "Qubit_3_9"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (6, 11, 18)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -308,21 +308,21 @@ def "World"
 
     def Cube "Qubit_4_3"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (8, 13, 6)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_4_4"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (8, 13, 8)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_4_5"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (8, 13, 10)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -343,7 +343,7 @@ def "World"
 
     def Cube "Qubit_4_8"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (8, 13, 16)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -357,7 +357,7 @@ def "World"
 
     def Cube "Qubit_5_0"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (10, 15, 0)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -371,7 +371,7 @@ def "World"
 
     def Cube "Qubit_5_2"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (10, 15, 4)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -392,7 +392,7 @@ def "World"
 
     def Cube "Qubit_5_5"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (10, 15, 10)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -406,7 +406,7 @@ def "World"
 
     def Cube "Qubit_5_7"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (10, 15, 14)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -427,7 +427,7 @@ def "World"
 
     def Cube "Qubit_6_0"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (12, 17, 0)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -441,14 +441,14 @@ def "World"
 
     def Cube "Qubit_6_2"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (12, 17, 4)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
 
     def Cube "Qubit_6_3"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (12, 17, 6)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -476,7 +476,7 @@ def "World"
 
     def Cube "Qubit_6_7"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (12, 17, 14)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -497,7 +497,7 @@ def "World"
 
     def Cube "Qubit_7_0"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (14, 19, 0)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -546,7 +546,7 @@ def "World"
 
     def Cube "Qubit_7_7"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (14, 19, 14)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -581,7 +581,7 @@ def "World"
 
     def Cube "Qubit_8_2"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (16, 21, 4)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -602,7 +602,7 @@ def "World"
 
     def Cube "Qubit_8_5"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (16, 21, 10)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -616,7 +616,7 @@ def "World"
 
     def Cube "Qubit_8_7"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (16, 21, 14)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -630,7 +630,7 @@ def "World"
 
     def Cube "Qubit_8_9"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (16, 21, 18)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -658,7 +658,7 @@ def "World"
 
     def Cube "Qubit_9_3"
     {
-        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
+        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
         double3 xformOp:translate = (18, 23, 6)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }
@@ -700,7 +700,7 @@ def "World"
 
     def Cube "Qubit_9_9"
     {
-        color3f[] primvars:displayColor = [(0.1, 0.8, 0.2)]
+        color3f[] primvars:displayColor = [(0.8, 0.1, 0.1)]
         double3 xformOp:translate = (18, 23, 18)
         uniform token[] xformOpOrder = ["xformOp:translate"]
     }

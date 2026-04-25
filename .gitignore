@@ -1,0 +1,30 @@
+# --- Environment / Secrets ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+.env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Operating System ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Visual Studio Code ---
+.vscode/
